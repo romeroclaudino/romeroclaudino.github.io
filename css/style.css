@@ -1,0 +1,26 @@
+
+
+
+.cabecarioPersonalizado {  padding: 5% 2.5% 5% 2.5%;  }
+
+#nome
+{  
+	color: #E3696E;
+	-webkit-transition: background-color 2s; /* Safari */
+    transition: background-color 2s;
+	-webkit-transition: color 2s;  /*Safari */
+    transition: color 2s;
+}
+
+#nome:hover
+{  
+	color: #FFF;
+	background-color: #E3696E;
+}
+
+
+/*Social Icons*//*Social Icons*//*Social Icons*//*Social Icons*//*Social Icons*//*Social Icons*/
+#socialIconFB {  background-image: url("../img/facebook-icon-i.png");  }
+#socialIconFB:hover {  background-image: url("../img/facebook-icon.png");  }
+#socialIconGit {  background-image: url("../img/github-icon-i.png");  }
+#socialIconGit:hover {  background-image: url("../img/github-icon.png");  }
