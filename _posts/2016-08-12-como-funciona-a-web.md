@@ -60,5 +60,20 @@ Foi por isso que os **domínios** foram criados em 1985. Eles associaram um ende
 
 
 ``` java
-System.out.println(":p");
+public class GameDAO
+{
+	public static ArrayList<Integer> queue = new ArrayList<>();
+	public static int index = 0;
+	
+	public static void insertElement()
+	{
+		Random r = new Random();
+		queue.add(r.nextInt(4));
+	}
+	
+	public static boolean verifyAnswer(int answer)
+	{	
+		return queue.get(index) == answer ? true : false;
+	}
+}
 ```
