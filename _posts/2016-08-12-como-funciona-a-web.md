@@ -33,23 +33,23 @@ Um **cliente** é manifestado em várias formas:
 * Um app de mensagens (como o Whatsapp)
 * Um serviço de streaming de video (como o Netflix)
 
-Cada um desses programas terá suas informações advindas de um **servidor**, onde algo é armazenado(um site, seus emails, mensagens, filmes). Embora programas clientes também enviei informações ao servidor, eles usualmente não as guardam, enquanto servidores sim.
+Cada um desses programas terá suas informações advindas de um **servidor**, onde algo é armazenado(um site, seus emails, mensagens, filmes). Embora programas clientes também enviem informações ao servidor, eles usualmente não as guardam, enquanto servidores sim.
 
 Um servidor pode ser considerado um computador dedicado que está sempre conectado à internet, o qual tem como único propósito o de fornecer conteúdo.
 
 
-> Embora alguns dispositivos conectados à internet possam ser tanto clientes e servidores ao mesmo tempo, a maioria dos dispositivos que nós usamos são considerados **clientes**, por não fornecerem dados.
+> Embora alguns dispositivos conectados à internet possam ser clientes e servidores ao mesmo tempo, a maioria dos dispositivos que nós usamos são considerados **clientes**, por não fornecerem dados.
 
 ## Endereço IP  
 
-Assim como toda casa possui um endereço postal único, a cada computador conectado a internet também é dado um **endereço IP**.
+Assim como toda casa possui um endereço postal único, a cada computador conectado à internet também é dado um **endereço IP**.
 
 Um endereço IP usualmente é composto por uma combinação de 4 números: 
 ``` 69.171.230.68 ```
 
 ## Domínios
 
-Embora endereços IP sejam úteis para computadores se comunicarem uns com os outros graças as suas singularidades, eles são difíceis de ser lidos e lembrado por nós seres humanos.
+Embora endereços IP sejam úteis para computadores se comunicarem uns com os outros graças as suas singularidades, eles são difíceis de ser lidos e lembrados por nós seres humanos.
 
 Foi por isso que os **domínios** foram criados em 1985. Eles associaram um endereço IP como ``` 69.171.230.68 ``` com um pedaço de **texto** como ``` facebook.com ```. Como resultado, ambos são **imodificáveis**: você pode ir para <http://69.171.230.68/> ou <http://facebook.com/> e acabará no mesmo lugar.
 
